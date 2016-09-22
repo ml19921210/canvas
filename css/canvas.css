@@ -1,0 +1,93 @@
+body,html,ul,li,input{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.box{
+    width: 800px;
+    height: 500px;
+    border: 1px solid #000;
+    position: absolute;
+    left: 112px;
+    top:50px;
+}
+.box .tops{
+    width: 100%;
+    height: 40px;
+}
+.box .tops ul li{
+    float: left;
+    width: 16.6666666%;
+    height: 100%;
+    text-align: center;
+    line-height: 40px;
+    background: #2e8bc8;
+    font-weight: bold;
+    cursor: pointer;
+}
+.box .bottoms{
+    width: 100%;
+    height: 460px;
+}
+.box .bottoms .lefts{
+    width: 100px;
+    height: 100%;
+    border-right: 1px solid #ccc;
+    float: left;
+    box-sizing: border-box;
+    background: #478f07;
+}
+.box .bottoms .canvas{
+    width: 700px;
+    height: 100%;
+    float: right;
+    position: relative;
+    background: #73b509;
+}
+.box .bottoms .canvas .copy{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top:0;
+    z-index: 999;
+}
+.box .bottoms .lefts ul li{
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    font-size: 14px;
+    line-height: 40px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+.box .bottoms .lefts ul{
+    display: none;
+}
+.box .bottoms .lefts .xian{
+    display: block;
+}
+.color{
+    color:red;
+}
+input[type=number]{
+    width: 100%;
+}
+.xp{
+    width: 10px;
+    height: 10px;
+    border: 1px solid #000;
+    position: absolute;
+    left: 0;
+    top:0;
+    display: none;
+    border-radius: 50%;
+}
+
+.bigbox{
+    width:1024px;
+    height: 630px;
+    margin: auto;
+    background: url(1.jpg);
+    position: relative;
+}
